@@ -12,7 +12,7 @@
   https://github.com/allstarcoding777/react-portfolio
 
   * ## Deployed Application
-  https://react-portfolio-777.herokuapp.com/
+  https://6435859b1c2e0503515bbd5d--creative-kangaroo-aa2b20.netlify.app/
   
   * ## License
   This project is licensed under the MIT license.
