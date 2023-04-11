@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43bba40f.css",
+    "main.js": "/static/js/main.e4492dbc.js",
+    "static/media/resume.png": "/static/media/resume.9d21cd52834b32f37934.png",
+    "static/media/developer-in-office.png": "/static/media/developer-in-office.988230b9f6c17d16fedb.png",
+    "static/media/UofMbadge.png": "/static/media/UofMbadge.897029ada12b7dccfc03.png",
+    "index.html": "/index.html",
+    "main.43bba40f.css.map": "/static/css/main.43bba40f.css.map",
+    "main.e4492dbc.js.map": "/static/js/main.e4492dbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43bba40f.css",
+    "static/js/main.e4492dbc.js"
+  ]
+}
