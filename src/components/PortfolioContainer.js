@@ -1,3 +1,4 @@
+// useState hook will be used to manage the state of the current page
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
@@ -5,10 +6,12 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
+// PortfolioContainer will manage which component is currently being rendered
 export default function PortfolioContainer() {
+  // this state will be passed to the NavTabs component
   const [currentPage, setCurrentPage] = useState('Home');
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  // render a different component based on the current page
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
@@ -21,14 +24,14 @@ export default function PortfolioContainer() {
     }
     return <Contact />;
   };
-
+  
+  // the function will update the state of currentPage
   const handlePageChange = (page) => setCurrentPage(page);
-
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
+      {/* passing the currentPage state value and the function to update it as props to NavTabs */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
+      {/* renderPage will return a component  */}
       {renderPage()}
     </div>
   );
