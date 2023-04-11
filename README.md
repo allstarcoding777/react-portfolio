@@ -4,9 +4,9 @@
   * ## Description
   This application contains a portfolio that was created using React.
   * ## Usage
-  When a user loads the portfolio, they are presented with icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
+  When a user loads the portfolio, they are presented with icon links to the developer’s GitHub and LinkedIn profiles.
   
-  ![webpage screenshot](assets/images/webpage-screenshot.png)
+  ![webpage screenshot](./src/components/pages/assets/images/webpage-screenshot.png)
 
   * ## Github Repository
   https://github.com/allstarcoding777/react-portfolio
