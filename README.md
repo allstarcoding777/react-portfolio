@@ -10,5 +10,9 @@
 
   * ## Github Repository
   https://github.com/allstarcoding777/react-portfolio
+
+  * ## Deployed Application
+  https://react-portfolio-777.herokuapp.com/
+  
   * ## License
   This project is licensed under the MIT license.
