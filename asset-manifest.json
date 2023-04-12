@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f4c89148.css",
+    "main.js": "/react-portfolio/static/js/main.b9c96f8b.js",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.9d21cd52834b32f37934.png",
+    "static/media/developer-in-office.png": "/react-portfolio/static/media/developer-in-office.988230b9f6c17d16fedb.png",
+    "static/media/UofMbadge.png": "/react-portfolio/static/media/UofMbadge.897029ada12b7dccfc03.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f4c89148.css.map": "/react-portfolio/static/css/main.f4c89148.css.map",
+    "main.b9c96f8b.js.map": "/react-portfolio/static/js/main.b9c96f8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4c89148.css",
+    "static/js/main.b9c96f8b.js"
+  ]
+}
