@@ -8,9 +8,6 @@
   
   ![webpage screenshot](./src/components/pages/assets/images/webpage-screenshot.png)
 
-  * ## Github Repository
-  https://github.com/allstarcoding777/react-portfolio
-
   * ## Deployed Application
   https://6435859b1c2e0503515bbd5d--creative-kangaroo-aa2b20.netlify.app/
   
