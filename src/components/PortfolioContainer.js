@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
+import MyWork from './pages/MyWork';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
@@ -18,6 +19,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'About') {
       return <About />;
+    }
+    if (currentPage === 'MyWork') {
+      return <MyWork />;
     }
     if (currentPage === 'Resume') {
       return <Resume />;
