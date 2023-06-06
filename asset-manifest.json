@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f4c89148.css",
-    "main.js": "/react-portfolio/static/js/main.b9c96f8b.js",
+    "main.css": "/react-portfolio/static/css/main.188d213c.css",
+    "main.js": "/react-portfolio/static/js/main.bc9578d7.js",
+    "static/media/chat.png": "/react-portfolio/static/media/chat.1c63883abacbce3855ea.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.c40e873ef1c2235f4727.png",
     "static/media/resume.png": "/react-portfolio/static/media/resume.9d21cd52834b32f37934.png",
-    "static/media/developer-in-office.png": "/react-portfolio/static/media/developer-in-office.988230b9f6c17d16fedb.png",
+    "static/media/translate.png": "/react-portfolio/static/media/translate.38f13ae61c4937fd02a9.png",
+    "static/media/calender.png": "/react-portfolio/static/media/calender.bfbf7da7e94a1933f78e.png",
+    "static/media/photo.jpg": "/react-portfolio/static/media/photo.75c0b12d05a74d082bef.jpg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.cebc4ffaa1836f50ada3.pdf",
     "static/media/UofMbadge.png": "/react-portfolio/static/media/UofMbadge.897029ada12b7dccfc03.png",
     "index.html": "/react-portfolio/index.html",
-    "main.f4c89148.css.map": "/react-portfolio/static/css/main.f4c89148.css.map",
-    "main.b9c96f8b.js.map": "/react-portfolio/static/js/main.b9c96f8b.js.map"
+    "main.188d213c.css.map": "/react-portfolio/static/css/main.188d213c.css.map",
+    "main.bc9578d7.js.map": "/react-portfolio/static/js/main.bc9578d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4c89148.css",
-    "static/js/main.b9c96f8b.js"
+    "static/css/main.188d213c.css",
+    "static/js/main.bc9578d7.js"
   ]
 }
