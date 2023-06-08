@@ -96,13 +96,6 @@ li {
     color: #002d70
 }
 
-.my-work {
-    font-weight: bold;
-    display: flex;
-    padding-left: 130px;
-    margin: 20px;
-}
-
 .icon {
     color: white;
 }
@@ -122,20 +115,34 @@ li {
     color: rgb(0, 0, 0)
 }
 
+.my-work {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
 .work-title{
     color: white;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 img.work-img {
     width: 500px;
     height: 330px;
+    padding: 10px;
 }
 
 img.note-img {
     width: 500px;
     height: 330px;
-    margin-right: 125px;
 }
 
 img:hover {
