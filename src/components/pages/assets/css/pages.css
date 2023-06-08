@@ -132,6 +132,12 @@ img.work-img {
     height: 330px;
 }
 
+img.note-img {
+    width: 500px;
+    height: 330px;
+    margin-right: 125px;
+}
+
 img:hover {
     background-color: #333
 }

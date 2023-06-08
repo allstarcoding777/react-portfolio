@@ -3,6 +3,8 @@ const chatPhoto = require('./assets/images/chat.png');
 const translatePhoto = require('./assets/images/translate.png');
 const weatherPhoto = require('./assets/images/weather.png');
 const calendarPhoto = require('./assets/images/calender.png');
+const workoutPhoto = require('./assets/images/workout.png');
+const notesPhoto = require('./assets/images/notes.png');
 
 export default function Contact() {
   return (
@@ -19,6 +21,17 @@ export default function Contact() {
     </div>
   </div>
 </div>
+
+<div className="row">
+    <div className="col">
+      <a a className='work-title' href='https://glittery-madeleine-c76884.netlify.app/' target="blank" rel="noreferrer"><h2>Workout Tracker</h2></a>
+    <a href="https://glittery-madeleine-c76884.netlify.app/" target="blank" rel="noreferrer"><img className='work-img' src={workoutPhoto} alt="translate"></img></a>
+    </div>
+    <a className='work-title' href="https://note-taker777.herokuapp.com/" target="blank" rel="noreferrer"><h2>Note Taker</h2></a>
+    <a href="https://note-taker777.herokuapp.com/" target="blank" rel="noreferrer"><img className='note-img' src={notesPhoto} alt="translate"></img></a>
+    <div className="col">
+    </div>
+  </div>
 
   <div className="row">
     <div className="col">
