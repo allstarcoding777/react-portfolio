@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("https://img.freepik.com/free-vector/gradient-black-technology-background_23-2149209060.jpg?w=1060&t=st=1686323973~exp=1686324573~hmac=38783f59502dc7252b54195c64a5e058bddfe36281d2da087f25373431ef8a9a");
+    background-image: url('../images/dark.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
