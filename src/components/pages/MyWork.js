@@ -18,7 +18,7 @@ export default function Contact() {
           <a href="https://allstarcoding777.github.io/weather-dashboard/" target="_blank" rel="noreferrer"><img className='work-img' src={weatherPhoto} alt="realtime chat"></img></a>
         </div>
         <div className="col">
-          <a a className='work-title' href='https://glittery-madeleine-c76884.netlify.app/' target="blank" rel="noreferrer"><h2>Workout Tracker</h2></a>
+          <a a className='work-title' href='https://workout-tracker-777.herokuapp.com/' target="blank" rel="noreferrer"><h2>Workout Tracker</h2></a>
           <a href="https://glittery-madeleine-c76884.netlify.app/" target="blank" rel="noreferrer"><img className='work-img' src={workoutPhoto} alt="translate"></img></a>
         </div>
         <div className="col">
