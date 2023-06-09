@@ -1,5 +1,5 @@
 import React from 'react';
-const resumePhotos = require('./assets/images/resume.png');
+const resumePhotos = require('./assets/images/resume1.png');
 const resumePDF = require('./assets/resume/resume.pdf');
 
 export default function Contact() {

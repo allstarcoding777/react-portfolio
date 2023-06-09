@@ -1,11 +1,39 @@
 body {
-  background: linear-gradient(rgb(0, 0, 0), #457b9d, black);
-  margin: 0;
-  padding: 8px;
-  box-sizing: border-box;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    background: linear-gradient(rgb(0, 0, 0), #457b9d, black);
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://img.freepik.com/free-vector/gradient-black-technology-background_23-2149209060.jpg?w=1060&t=st=1686323973~exp=1686324573~hmac=38783f59502dc7252b54195c64a5e058bddfe36281d2da087f25373431ef8a9a");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-img {
+  height: 350px;
+  width: 300px;
+  margin-left: -105px;
+  pointer-events: none
+}
+
+.hello {
+    padding: 230px;
+    margin-left: -10px;
+    color: white
+}
+
+span {
+    font-size: 75px;
+    color: white;
+}
+
+.links {
+    padding-top: 500px;
+    padding-left: 95px;
+    display: flex;   
+    font-size: 35px
 }
 
 section {
@@ -18,14 +46,15 @@ h1 {
     padding: 14px 16px;
 }
 
-span {
-    font-size: 75px;
-    color: white;
-}
 
 .nav-heading {
     color: white;
     margin-left: 15px;
+}
+
+.nav-tabs {
+    background: #000000;
+    margin-top: -8px;
 }
 
 p {
@@ -53,14 +82,9 @@ li {
     border-radius: 4px
 }
 
-.profile-img {
-  margin-top: 100px;
-  width: 400px;
-  height: 600px;
-  pointer-events: none;
-  margin-right: 80px;
-  display: block;
-  padding: 66px 70px
+.contact-title {
+  padding-right: 420px;
+  padding-top: 20px;
 }
 
 .uofm-img {
@@ -84,11 +108,17 @@ li {
 }
 
 .resume-img {
+    width: 800px;
+    height: 500px;
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding: 14px 16px;
     pointer-events: none
+}
+
+.about-p {
+    padding-top: 35px;
 }
 
 .github:hover,
@@ -100,20 +130,6 @@ li {
     color: white;
 }
 
-.github {
-    display: flex;
-    justify-content: center;
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-    margin-top: 55px
-}
-
-.linkedin {
-    display: flex;
-    justify-content: center;
-    font-size: 35px;
-    color: rgb(0, 0, 0)
-}
 
 .my-work {
     font-weight: bold;
@@ -162,5 +178,6 @@ main section strong {
 }
 
 footer {
-    margin-top: auto;
+    margin-top: 170px;
+
 }
