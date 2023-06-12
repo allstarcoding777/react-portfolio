@@ -8,7 +8,7 @@ export default function Home() {
     <section className='container'>
       <div className="row">
       <img className='home-img col' src={mindImg} alt='profile' />
-      <h1 className='hello col-5'>Hello, I am Alex<br></br><span>a Full-Stack <br></br>Web Developer</span></h1>
+      <h1 className='hello col-5'>Hello, I am Alex<br></br><span className='full-stack-span'>a Full-Stack <br></br>Web Developer</span></h1>
       <section className='col'>
       <div className='col links'>
       <a className = 'github' href="https://github.com/allstarcoding777?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>

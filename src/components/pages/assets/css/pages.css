@@ -6,32 +6,31 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('../images/dark.png');
+    background-image: url('https://wallpapercave.com/wp/wp9153708.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .home-img {
-  height: 350px;
-  width: 300px;
+  height: 330px;
+  width: 230px;
   margin-left: -105px;
   pointer-events: none
 }
 
 .hello {
-    padding: 230px;
-    margin-left: -10px;
+    padding: 210px;
     color: white
 }
 
-span {
+.full-stack-span {
     font-size: 75px;
     color: white;
 }
 
 .links {
-    padding-top: 500px;
-    padding-left: 95px;
+    padding-top: 540px;
+    padding-left: 100px;
     display: flex;   
     font-size: 35px
 }
@@ -46,10 +45,11 @@ h1 {
     padding: 14px 16px;
 }
 
-
 .nav-heading {
     color: white;
-    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
 }
 
 .nav-tabs {
@@ -82,9 +82,8 @@ li {
     border-radius: 4px
 }
 
-.contact-title {
-  padding-right: 420px;
-  padding-top: 20px;
+.contact-info {
+  padding-right: 40px
 }
 
 .uofm-img {
@@ -103,7 +102,7 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: white;
-    padding-top: 20px;
+    padding-top: 55px;
 
 }
 
@@ -180,4 +179,57 @@ main section strong {
 footer {
     margin-top: 170px;
 
+}
+
+/* display webpage responsive on mobile devices */
+@media screen and (max-width: 600px) {
+    .home-img {
+        height: 250px;
+        width: 200px;
+        margin-left: 0px;
+        pointer-events: none
+    }
+    p {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        font-size: 26px
+    }
+    .hello {
+        padding: 0;
+        padding-top: 40px;
+        margin: 0
+    }
+    .full-stack-span {
+        font-size: 70px;
+        color: white;
+    }
+    .links {
+        margin-top: -400px
+    }
+    .uofm-img {
+        width: 350px;
+        height: 350px;
+        pointer-events: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 14px 16px
+    }
+    img.work-img {
+        width: 350px;
+        height: 250px;
+        display: flex;
+        margin-left: auto;
+        
+    }
+    .resume-img {
+        width: 400px;
+        height: 325px;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        pointer-events: none
+    }
 }
