@@ -18,7 +18,7 @@ export default function Home() {
     </div>
     </section>
     <footer className='flex-wrapper'>
-            <p className='footer'>© 2023 Alexandria Ellis</p>
+            <p className='footer'>© 2023 Alex Ellis</p>   
     </footer>
     </body>  
   );
