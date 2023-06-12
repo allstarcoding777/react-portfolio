@@ -12,7 +12,7 @@ export default function Home() {
       <section className='col'>
       <div className='col links'>
       <a className = 'github' href="https://github.com/allstarcoding777?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
-      <a className = 'linkedin' href="https://www.linkedin.com/in/alexandria-ellis-98589b1a4" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a className = 'linkedin' href="https://www.linkedin.com/in/alex-ellis-98589b1a4/" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
     </section>
     </div>
