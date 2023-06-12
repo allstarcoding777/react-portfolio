@@ -19,7 +19,7 @@ export default function Contact() {
         </div>
         <div className="col">
           <a a className='work-title' href='https://workout-tracker-777.herokuapp.com/' target="blank" rel="noreferrer"><h2>Workout Tracker</h2></a>
-          <a href="https://glittery-madeleine-c76884.netlify.app/" target="blank" rel="noreferrer"><img className='work-img' src={workoutPhoto} alt="translate"></img></a>
+          <a href="https://workout-tracker-777.herokuapp.com/" target="blank" rel="noreferrer"><img className='work-img' src={workoutPhoto} alt="translate"></img></a>
         </div>
         <div className="col">
         <a className='work-title' href="https://note-taker777.herokuapp.com/" target="blank" rel="noreferrer"><h2>Note Taker</h2></a>
