@@ -181,7 +181,7 @@ footer {
 
 }
 
-/* display webpage responsive on mobile devices */
+/* display responsive webpage on mobile devices */
 @media screen and (max-width: 600px) {
     .home-img {
         height: 250px;
@@ -216,16 +216,16 @@ footer {
         display: block;
         padding: 14px 16px
     }
-    img.work-img {
-        width: 350px;
-        height: 250px;
+    .my-work {
         display: flex;
-        margin-left: auto;
-        
+        justify-content: center;
+    }
+    img.work-img {
+        padding: 0 40px 40px 40px
     }
     .resume-img {
-        width: 400px;
-        height: 325px;
+        width: 375px;
+        height: 300px;
         padding-top: 50px;
         margin-left: auto;
         margin-right: auto;
