@@ -153,6 +153,7 @@ img.work-img {
     width: 500px;
     height: 330px;
     padding: 10px;
+    border-radius: 4px;
 }
 
 img.note-img {
