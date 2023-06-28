@@ -7,7 +7,7 @@ export default function Contact() {
       <section className='contact-info'>
       <p className='name'>Name: Alex Ellis</p>
       <p className='phone'>Phone Number: 612-433-0400</p>
-      <p className='email'>Email: <span className='email-span'>allstarcoding777@gmail.com</span></p>
+      <p className='email'>Email: allstarcoding777@gmail.com</p>
       </section>
     </div>
   );
